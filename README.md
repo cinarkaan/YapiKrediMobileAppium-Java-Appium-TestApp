@@ -20,5 +20,4 @@ CASE : Mobile Automation using appium java
 *Third atm will be selected
 *Atm address will be printed
 
-https://user-images.githubusercontent.com/55651776/156935178-09cfa9be-7361-4f11-ab98-6aa3126ad024.mp4
-
+https://user-images.githubusercontent.com/55651776/156935442-d77a002d-8275-41cb-9b0f-a4674d530979.mp4
