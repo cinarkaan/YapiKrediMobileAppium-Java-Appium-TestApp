@@ -8,6 +8,12 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DirectionsToAtm {
 
+    @AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Google haritası\"]/android.view.View")
+    private AndroidElement getPathDirection;
+
+    @AndroidFindBy(xpath = "//android.widget.ImageView[@content-desc=\"Yol Tarifi Al\"]")
+    private AndroidElement path;
+
     @AndroidFindBy(id = "com.ykb.android:id/nearestykb_floating_list_button")
     private AndroidElement atmList;
 
@@ -31,6 +37,11 @@ public class DirectionsToAtm {
 
     public void getAtmAddress () {
         System.out.println("Third Atm Address : " + atmAddress.getText());
+    }
+
+    public void getPath () {
+        getPathDirection.click();
+        path.click();
     }
 
 }

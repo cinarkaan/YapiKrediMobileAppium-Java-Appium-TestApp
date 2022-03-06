@@ -65,6 +65,9 @@ public class StepDefinition {
 
         directionsToAtm.getAtmAddress();
 
+        System.out.println("Path direction will be got from google maps");
+
+        directionsToAtm.getPath();
     }
 
 }
