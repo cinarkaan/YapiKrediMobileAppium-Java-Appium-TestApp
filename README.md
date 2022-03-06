@@ -21,4 +21,7 @@ CASE : Mobile Automation using appium java
 *Atm address will be printed <br/>
 *Path direction will be got from google maps
 
-https://user-images.githubusercontent.com/55651776/156935442-d77a002d-8275-41cb-9b0f-a4674d530979.mp4
+Video <br/>
+
+https://user-images.githubusercontent.com/55651776/156936124-4f1a42b1-d903-4b4e-89d5-84243f51052f.mp4
+
